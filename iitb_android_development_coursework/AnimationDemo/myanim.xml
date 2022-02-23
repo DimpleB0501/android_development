@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<set xmlns:android="http://schemas.android.com/apk/res/android">
+   <!--<rotate android:fromDegrees="0"
+       android:toDegrees="360"
+       android:pivotX="50%p"
+       android:pivotY="50%p"
+       android:duration="5000"></rotate>-->
+       <!-- <translate android:fromXDelta="-150" android:fromYDelta="150"
+            android:duration ="10000"></translate>-->
+    <!-- <alpha android:fromAlpha="0.0" android:toAlpha="1.0"
+       android:duration = "10000"></alpha>-->
+    <scale android:fromXScale="10" android:toYScale="-10" android:pivotX="50%" android:pivotY="50%"
+        android:duration = "10000"></scale>
+</set>
+
+<!--with pivot image rotates at the center X,Y otherwise complete rotation-->
+<!--need to do scale and set and
+Check more animations on https://developer.android.com/training/animation/overview
+-->

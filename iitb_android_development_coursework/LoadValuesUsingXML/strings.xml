@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LoadValuesUsingXML</string>
+    <array name="bakery">
+        <item>Puff</item>
+        <item>Cake</item>
+        <item>Rolls</item>
+        <item>Noodles</item>
+        <item>Puff</item>
+        <item>Cupcake</item>
+        <item>Pasta</item>
+        <item>Donut</item>
+
+    </array>
+</resources>

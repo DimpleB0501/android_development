@@ -1,0 +1,36 @@
+<shape android:shape="rectangle"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <corners android:bottomLeftRadius="50dp"
+        android:bottomRightRadius="50dp"
+        android:topLeftRadius="50dp"
+        android:topRightRadius="50dp">
+
+    </corners>
+    <padding android:bottom="25dp" android:left="25dp"
+        android:right="25dp" android:top="25dp"></padding>
+
+<!--    <solid android:color="#EC846D"></solid>-->
+    <gradient android:angle="180"
+        android:gradientRadius="50dp"
+        android:startColor="#6EEA9D"
+        android:centerColor="#D73557"
+        android:endColor="#9591CF">
+    </gradient>
+
+    <stroke android:color="#ffffff" android:dashGap="5dp"
+        android:dashWidth="5dp"
+        android:width="5dp">
+    </stroke>
+
+<!--    <size android:width="200dp"-->
+<!--        android:height="200dp">-->
+<!--    </size>-->
+
+
+</shape>
+
+<!--Right click -> drawable -> New -> Drawable resource file
+angle of 45
+ctrl + / === select line and comment in xml
+-->

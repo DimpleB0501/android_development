@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/insert"
+        android:layout_marginTop="200dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to insert page" />
+
+    <Button
+        android:id="@+id/delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to delete page" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to update" />
+
+    <Button
+        android:id="@+id/get"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go to get" />
+
+    <Button
+        android:id="@+id/lp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login" />
+</LinearLayout>

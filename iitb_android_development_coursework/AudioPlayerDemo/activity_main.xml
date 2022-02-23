@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/b1"
+        android:text="Play"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <Button
+        android:id="@+id/b2"
+        android:text="Pause"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <Button
+        android:id="@+id/b3"
+        android:text="Stop"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <Button
+        android:id="@+id/b4"
+        android:text="Change Position"
+        android:textStyle="italic"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+
+    <SeekBar
+        android:id="@+id/ss"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    </SeekBar>
+
+</LinearLayout>

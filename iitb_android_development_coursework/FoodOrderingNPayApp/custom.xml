@@ -1,0 +1,48 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:id="@+id/civ"
+        android:src="@mipmap/ic_launcher"
+        android:padding="25dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp">
+    </ImageView>
+
+    <LinearLayout
+        android:layout_marginLeft="15dp"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <TextView
+            android:id="@+id/chead"
+            android:textSize="30dp"
+            android:text="Head Text"
+            android:textAllCaps="true"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </TextView>
+
+        <TextView
+            android:id="@+id/csub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sub Text"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textStyle="italic"></TextView>
+        <CheckBox
+            android:id="@+id/item_sel"
+            android:layout_marginLeft="200dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+        </CheckBox>
+
+    </LinearLayout>
+
+</LinearLayout>

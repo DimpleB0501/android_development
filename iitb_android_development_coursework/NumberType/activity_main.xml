@@ -1,0 +1,87 @@
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText
+        android:id="@+id/ip"
+        android:hint="Enter a number"
+        android:inputType="number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></EditText>
+
+    <Button
+        android:text="Check Even or Odd"
+        android:id="@+id/check"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <TextView
+        android:id="@+id/op"
+        android:text="Sample ...."
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <Button
+        android:text="Check Palindrome"
+        android:id="@+id/check_palindrome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <TextView
+        android:id="@+id/op_palindrome"
+        android:text="Sample ...."
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <Button
+        android:text="Check Prime"
+        android:id="@+id/check_prime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <TextView
+        android:id="@+id/op_prime"
+        android:text="Sample ...."
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <Button
+        android:text="Check Strong Number"
+        android:id="@+id/check_strong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <TextView
+        android:id="@+id/op_strong"
+        android:text="Sample ...."
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+    <Button
+        android:text="Check Armstrong Number"
+        android:id="@+id/check_armstrong"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></Button>
+
+    <TextView
+        android:id="@+id/op_armstrong"
+        android:text="Sample ...."
+        android:textColor="#000000"
+        android:textSize="25sp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></TextView>
+
+</LinearLayout>

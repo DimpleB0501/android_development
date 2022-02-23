@@ -1,0 +1,48 @@
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rl"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/iv"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/bg"
+        android:layout_width="300dp"
+        android:layout_height="300dp">
+    </ImageView>
+    <Button
+        android:layout_below="@+id/iv"
+        android:id="@+id/b1"
+        android:text="click to get chris"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:layout_below="@+id/b1"
+        android:id="@+id/b2"
+        android:text="click to get robert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:layout_below="@+id/b2"
+        android:id="@+id/b3"
+        android:text="click to get scarlett"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:layout_below="@+id/b3"
+        android:id="@+id/b4"
+        android:text="click to get mark"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:layout_below="@+id/b4"
+        android:id="@+id/b5"
+        android:text="click to get chris h"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </Button>
+</RelativeLayout>

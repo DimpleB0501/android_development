@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/p1" android:icon="@android:drawable/ic_menu_save" app:showAsAction="always" android:title="Pizza"></item>
+    <item android:id="@+id/p2" android:icon="@android:drawable/ic_dialog_email" app:showAsAction="always" android:title="Pasta"></item>
+    <item android:id="@+id/p3" app:showAsAction="always" android:icon="@android:drawable/ic_input_add" android:title="Burger"></item>
+    <item android:id="@+id/p4" app:showAsAction="always" android:icon="@android:drawable/ic_menu_delete" android:title="Hot Dog"></item>
+    <item android:id="@+id/p5" app:showAsAction="always" android:icon="@android:drawable/ic_menu_upload" android:title="Schewan Pizza"></item>
+</menu>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+    <EditText
+        android:hint="enter email"
+        android:id="@+id/run"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:hint="enter phone"
+        android:id="@+id/rph"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="phone" />
+
+    <EditText
+        android:hint="Enter the password"
+        android:id="@+id/rpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <EditText
+        android:hint="Re-enter pwd"
+        android:id="@+id/rcpwd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/rrgr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+</LinearLayout>
